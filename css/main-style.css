@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+body
+{
+	background-color: #eee;
+	color: #333;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px
+}
+p{ line-height: 1.5em}
+.container
+{
+	width:70%; 
+	margin: auto
+}
+.logo
+{
+	float: left;
+	width: 200px;
+	margin-right: 20px
+}
+a.tentruong{
+	color:brown;
+	text-decoration: none;
+}
+/* xóa ảnh hưởng của lệnh nổi lên float */
+.clearfix { clear: both; height: 0}
+.clearfix-50{ clear: both; height: 50}
+.menu
+{
+	margin-top: 30px; border-bottom: 1px solid #c00;
+	padding-bottom: 10px;
+	width: 70%
+}
+.menu a 
+{
+	color: #fff; text-decoration: none;
+	background-color: #E4A300;
+	padding: 5px 10px
+}
+.menu a:hover{
+	background-color: #707072
+} 
+.menu a.btn-dangky
+{
+
+	background-image: linear-gradient(45deg,#cc0,rgb(204, 65, 0));
+	border-radius: 20px; 
+	padding: 10px 15px; 
+	margin-left: 50px
+}	
+.menu a.btn-dangky:hover
+{
+	
+	background-image: linear-gradient(180deg,rgb(204, 71, 0),#cc0);
+}	
+.h1tuyen{
+	text-align: center;
+}
+*{ box-sizing: border-box}
+.w-20{ width:20%; float: left; padding: 15px}
+.w-25{ width:25%; float: left; padding: 15px}
+.w-30{ width:30%; float: left; padding: 15px; margin-bottom: 30px }
+.w-50{ width:50%; float: left; padding: 15px}
+.w-70{ width:70%; float: left; padding: 15px}
+.w-80{ width:80%; float: left; padding: 15px}
+.w-100{ width:100%; float: left; padding: 15px}
+.img-100{ width: 100%; height:auto}
+.h-200{ height: 220px}
+.btn-xemthem{ color: #b4a201; text-decoration: none}
+.btn-xemthem:hover{ color: rgb(250, 108, 0); text-decoration: overline}
+.shadow{	box-shadow: 0 0 10px #ccc }
+.footer{
+	background-color:#ccc;
+	min-height: 600px
+}
+.vienchan{ border-bottom: 1px solid #333}
+p.chia3cot
+{
+	column-count: 3; 
+	column-gap: 100px; 
+	column-rule: dashed 1px #ddd; 
+	line-height: 1.7em; 
+	text-align: justify
+}
+
+
+
+
+
+
+
+

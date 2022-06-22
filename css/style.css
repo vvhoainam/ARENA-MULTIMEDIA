@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    padding: 5px 8%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    position: relative;
+}
+.nav-links li a::after{
+    content: '';
+    background: rgb(255, 213, 0);
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.nav-links li a:hover::after{
+    width: 100%;
+}
+.nut{
+    background: rgb(255, 213, 0);
+    color: black;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 90px;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: -20px;
+	color: rgb(255, 213, 0);
+	
+	
+}
+.content h2{
+	font-size: 30px;
+	font-weight: 500;
+    margin-top: 5px;
+	margin-bottom: 5px;
+	color: white;
+	
+}
+.content form{
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+}
+.content input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 18px;
+}
+.content button{
+    background: rgb(255, 213, 0);
+    color: black;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+	font-size: 18px
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid rgb(255, 213, 0);
+    background: rgb(255, 213, 0);
+    transition: 1s;
+}
+
+.gioithieu{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.row2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.chuongtrinh-col{
+    flex-basis: 31%;
+    background:rgb(253, 224, 79) ;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.chuongtrinh-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0,2);
+}
+
+
+
+*{ box-sizing: border-box}
+.w-20{ width:20%; float: left; padding: 15px}
+.w-25{ width:25%; float: left; padding: 15px}
+.w-30{ width:30%; float: left; padding: 5px; margin-bottom: 5px;}
+.w-50{ width:50%; float: left; padding: 15px}
+.w-70{ width:70%; float: left; padding: 15px}
+.w-80{ width:80%; float: left; padding: 15px}
+.w-100{ width:100%; float: left; padding: 15px}
+.img-100{ width: 100%; height: auto}
+.h-230{height: 230px;}
+.shadow{	box-shadow: 0 0 10px #ccc }
+.footer{
+	background-color:#ccc;
+	min-height: 600px
+}
+.vienchan{ border-bottom: 1px solid #333}
+p.chia3cot{
+	column-count: 3; 
+	column-gap: 100px; 
+	column-rule: dashed 1px #ddd; 
+	line-height: 1.7em; 
+	text-align: justify
+}
+.back-video{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
